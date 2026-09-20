@@ -1,0 +1,26 @@
+SOURCE: SRV-MAIL01
+TYPE: Mail gateway delivery log
+ACQUIRED: Export, 2025-09-10, covering 2025-09-01 through 2025-09-10
+================================================================
+
+MsgID: <8f2a1c@consultingpartner-invoices.com>
+Time (UTC): 2025-09-08 14:02:11
+From: billing@consultingpartner-invoices.com
+To: t.nguyen@meridiananalytics.com
+Subject: Q3 Budget Review - Action Required
+Attachment: Q3_Budget_Review.xlsm (412 KB)
+X-SPF: fail (domain does not designate sending host as permitted sender)
+X-Mail-Flow-Rule: Applied "Vendor-Allowlist-Legacy-2023" (exception: sender
+  domain matched historical allowlist entry added 2023-11-02, rule not
+  reviewed since creation)
+Delivery: Delivered to Inbox (bypassed quarantine due to allowlist rule)
+
+----------------------------------------------------------------
+
+MsgID: <9931a-fs@meridiananalytics.com>
+Time (UTC): 2025-09-08 09:15:44
+From: a.romero@meridiananalytics.com
+To: all-staff@meridiananalytics.com
+Subject: Scheduled GPO Update Tonight
+Body (excerpt): "IT will be pushing a Group Policy update to all
+  workstations this evening via remote PowerShell. No action needed."

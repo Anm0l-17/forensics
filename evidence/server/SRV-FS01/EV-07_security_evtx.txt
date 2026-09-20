@@ -1,0 +1,12 @@
+SOURCE: SRV-FS01
+TYPE: Security.evtx excerpt
+================================================================
+
+Event ID 4624 (An account was successfully logged on)
+  Time: 2025-09-09 02:14:52 (local, America/Denver — as recorded by the
+        local system clock; see EV-08 for time-service status)
+  Logon Type: 9 (NewCredentials)
+  Account Name: d.reyes
+  Account Domain: MERIDIAN
+  Source Network Address: 10.10.4.41 (WKS-DEV04)
+  Logon Process: seclogo

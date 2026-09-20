@@ -1,0 +1,18 @@
+SOURCE: SRV-FS01, C:\BackupStaging\Q3\
+TYPE: Filesystem metadata comparison — two archives found in the same
+      staging directory
+================================================================
+
+Backup_Archive_20250909_0230.zip
+  Size: 411.2 MB
+  Internal paths: 14,209 files across full \Finance\ tree
+  Created by process: BackupAgent.exe (svc-backup, scheduled task context)
+
+----------------------------------------------------------------
+
+Backup_Archive_20250909_0751.zip
+  Size: 18.4 MB
+  Internal paths: 62 files, all under \Finance\Contracts\ and
+    \Finance\WireInstructions\ only
+  Created by process: (no BackupAgent.exe telemetry correlates to this file)
+  Owner (NTFS): MERIDIAN\svc-backup

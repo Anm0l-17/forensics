@@ -1,0 +1,25 @@
+SOURCE: WKS-DEV04
+TYPE: EDR-style process/network telemetry (independent collection
+      pipeline, separate from Windows Event Logging)
+DATE: 2025-09-08
+================================================================
+
+ProcessCreate
+  Time: 2025-09-08 14:47:19 UTC
+  Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  ParentImage: C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe
+  CommandLine: powershell -nop -w hidden -enc <base64 omitted>
+  PID: 6188  ParentPID: 6104
+
+----------------------------------------------------------------
+
+NetworkConnect
+  Time: 2025-09-08 14:47:22 UTC
+  PID: 6188  DestinationIP: 20.42.118.7  DestinationPort: 443
+
+----------------------------------------------------------------
+
+LSASS Access (flagged: Suspicious)
+  Time: 2025-09-08 14:48:01 UTC
+  RequestingPID: 6104 (OneDriveUpdater.exe)
+  AccessMask: 0x1010

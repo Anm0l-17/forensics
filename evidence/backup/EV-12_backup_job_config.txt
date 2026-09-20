@@ -1,0 +1,17 @@
+SOURCE: Backup orchestration system
+TYPE: Job configuration + rotation-ingestion log
+================================================================
+
+[Job: NightlyFinanceBackup]
+  Scope: \\SRV-FS01\Finance\  (full recursive share)
+  Schedule: 02:00–03:00 UTC daily
+  Destination: backupvault.meridianbackups.net
+  Output naming: Backup_Archive_YYYYMMDD_HHMM.zip
+
+----------------------------------------------------------------
+
+[Rotation-ingestion log]
+2025-09-08 02:34 UTC  INGESTED  Backup_Archive_20250908_0230.zip  (409.7 MB)
+2025-09-09 02:31 UTC  INGESTED  Backup_Archive_20250909_0230.zip  (411.2 MB)
+
+(no ingestion record exists for any archive timestamped 07:xx on 2025-09-09)

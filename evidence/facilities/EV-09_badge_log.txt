@@ -1,0 +1,8 @@
+SOURCE: Facilities badge access system
+TYPE: Badge event log, filtered to account holder d.reyes
+DATE RANGE: 2025-09-08 through 2025-09-09
+================================================================
+
+2025-09-08 17:42:10 local  d.reyes  Badge OUT — Main Entrance
+
+(no further badge events for d.reyes until 2025-09-09 07:58 local)

@@ -1,0 +1,9 @@
+SOURCE: SRV-DC01 (DNS role)
+TYPE: DNS query log, filtered to WKS-DEV04
+DATE: 2025-09-08
+================================================================
+
+2025-09-08 14:15:02 UTC  WKS-DEV04  A?  cdn-assets-sync.trafficmanager.net
+  -> 20.42.118.7  (shared CDN range, thousands of legitimate tenants)
+2025-09-08 14:15:03 UTC  WKS-DEV04  A?  login.microsoftonline.com -> 20.190.151.4
+2025-09-08 14:20:11 UTC  WKS-DEV04  A?  outlook.office365.com -> 52.96.166.66

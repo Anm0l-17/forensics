@@ -1,0 +1,12 @@
+SOURCE: SRV-FS01
+TYPE: System health / time-service log
+================================================================
+
+2025-08-30 03:11:00 UTC  Event ID 6013 (System uptime after reboot)
+2025-08-30 03:11:00 UTC  Event ID 1 (Kernel-General: System time synchronized)
+  NOTE: W32Time service failed to sync following this reboot
+  (Event ID 129, W32Time — "the time service has not been
+  able to synchronize since the last reboot")
+
+2025-09-09 06:00:00 UTC  Scheduled NTP sync attempt: FAILED (service still
+  in unsynchronized state since 2025-08-30)

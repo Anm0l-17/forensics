@@ -1,0 +1,12 @@
+SOURCE: WKS-DEV04
+TYPE: Microsoft-Windows-PowerShell/Operational log (Event ID 4104,
+      Script Block Logging)
+DATE: 2025-09-08
+================================================================
+
+2025-09-08 14:24:55 UTC  ScriptBlock: Get-Process | Where-Object {...}
+2025-09-08 14:27:10 UTC  ScriptBlock: Test-NetConnection -ComputerName ...
+
+--- GAP: no 4104 events between 14:29:41 UTC and 15:12:00 UTC ---
+
+2025-09-08 15:12:00 UTC  ScriptBlock: Get-ChildItem C:\Users -Recurse ...

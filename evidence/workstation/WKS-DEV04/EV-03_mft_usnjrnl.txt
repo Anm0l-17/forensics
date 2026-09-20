@@ -1,0 +1,20 @@
+SOURCE: WKS-DEV04
+TYPE: $MFT record + $UsnJrnl excerpt
+SCOPE: C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe
+================================================================
+
+$MFT record 88214 — OneDriveUpdater.exe
+  $STANDARD_INFORMATION:
+    Created:  2024-11-03 09:14:00 UTC
+    Modified: 2024-11-03 09:14:00 UTC
+  $FILE_NAME:
+    Created:  2025-09-08 14:12:03 UTC
+    Modified: 2025-09-08 14:12:03 UTC
+
+----------------------------------------------------------------
+
+$UsnJrnl excerpt:
+  2025-09-08 14:12:03 UTC  USN 88214  FileCreate|DataExtend
+    C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe
+  2025-09-08 14:12:04 UTC  USN 88215  Close
+    C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe

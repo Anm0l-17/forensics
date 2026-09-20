@@ -1,0 +1,20 @@
+SOURCE: Corporate web proxy
+TYPE: HTTPS access log (SNI/Host visible)
+DATE RANGE: 2025-09-08 through 2025-09-09
+================================================================
+
+2025-09-08 14:15:04 UTC  src=WKS-DEV04  dst_ip=20.42.118.7:443
+  SNI/Host: cdn-assets-sync-api.net
+  bytes_out=1.2KB bytes_in=4.8KB
+
+2025-09-08 14:47:31 UTC  src=WKS-DEV04  dst_ip=20.42.118.7:443
+  SNI/Host: cdn-assets-sync-api.net
+  bytes_out=890B bytes_in=2.1KB
+
+2025-09-09 07:58:02 UTC  src=SRV-FS01  dst_ip=20.42.118.7:443
+  SNI/Host: cdn-assets-sync-api.net
+  bytes_out=18.4MB bytes_in=3.4KB
+
+2025-09-09 02:31:10 UTC  src=SRV-FS01  dst_ip=13.107.42.16:443
+  SNI/Host: backupvault.meridianbackups.net
+  bytes_out=412MB bytes_in=61KB

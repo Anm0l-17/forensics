@@ -1,0 +1,24 @@
+SOURCE: WKS-DEV04
+TYPE: Security.evtx excerpt
+DATE: 2025-09-08
+================================================================
+
+Event ID 4698 (A scheduled task was created)
+  Time: 2025-09-08 14:20:11 UTC
+  Task Name: \OneDrive Standalone Update Task-S-1-5-21-3623811015-3361044348-30300820-9999
+  Task Content (excerpt):
+    <Actions><Exec>
+      <Command>C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe</Command>
+      <Arguments>/background</Arguments>
+    </Exec></Actions>
+    <Triggers><LogonTrigger/></Triggers>
+  Subject: MERIDIAN\t.nguyen
+
+----------------------------------------------------------------
+
+Event ID 4657 (A registry value was modified)
+  Time: 2025-09-08 14:29:41 UTC
+  Object: HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging
+  Value name: EnableScriptBlockLogging
+  Old value: 1   New value: 0
+  Subject: NT AUTHORITY\SYSTEM  Process: C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe (PID 6104)

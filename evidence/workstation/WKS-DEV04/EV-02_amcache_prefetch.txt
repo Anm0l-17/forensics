@@ -1,0 +1,31 @@
+SOURCE: WKS-DEV04
+TYPE: Amcache.hve / Prefetch excerpt
+ACQUIRED: Live triage collection, 2025-09-10
+================================================================
+
+[Prefetch] EXCEL.EXE-3F2A91B4.pf
+  Run count: 47
+  Last run (local): 2025-09-08 08:09:52 (America/Denver, UTC-6)
+
+[Prefetch] ONEDRIVEUPDATER.EXE-7C81D203.pf
+  Run count: 1
+  Last run (local): 2025-09-08 08:12:20
+
+[Amcache] InventoryApplicationFile
+  Path: C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe
+  SHA1: (see EV-16 hash inventory)
+  First seen: 2025-09-08 14:12:03 UTC
+  Digital signature: Unsigned
+  LinkDate (PE header compile timestamp): 2025-09-07 22:41:00 UTC
+
+----------------------------------------------------------------
+
+[Prefetch] PSEXEC.EXE-A9401E2F.pf
+  Run count: 1
+  Last run (local): 2025-09-08 09:47:03
+
+[Amcache] InventoryApplicationFile
+  Path: C:\Windows\CCM\Cache\PSEXEC.EXE
+  SHA1: (see EV-16 hash inventory)
+  Digital signature: Valid — "Sysinternals" (Microsoft)
+  First seen: 2025-09-08 15:46:58 UTC

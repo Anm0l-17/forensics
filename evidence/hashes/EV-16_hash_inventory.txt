@@ -1,0 +1,23 @@
+SOURCE: Multiple hosts
+TYPE: SHA-256 hash inventory of relevant binaries and archives
+================================================================
+
+File: OneDriveUpdater.exe
+Path: C:\Users\t.nguyen\AppData\Roaming\Microsoft\OneDrive\OneDriveUpdater.exe
+Host: WKS-DEV04
+SHA-256: 9f2c8a41b7e3d9046c1a5f8b2e7d4c39a0f61b8d3e5c7a92146fbd0837c5e91a
+
+----------------------------------------------------------------
+
+File: PSEXEC.EXE
+Path: C:\Windows\CCM\Cache\PSEXEC.EXE
+Host: WKS-DEV04
+SHA-256: 5a7ee43dc9b0f6a17e2451d8f9c3ab6e0d4271a985bce640f13dc2b78940ee5
+(matches published Sysinternals PsExec v2.4 release hash)
+
+----------------------------------------------------------------
+
+File: Backup_Archive_20250909_0751.zip
+Path: C:\BackupStaging\Q3\
+Host: SRV-FS01
+SHA-256: c14a0f6b8e2d9173a5f4c8017e93b6dd2418c0af7395bde1246a08c7fb31de9
